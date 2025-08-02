@@ -8,17 +8,18 @@
   <body>
     <!-- get to get data from server  -->
      <!-- put updates existing  data  -->
-    <form action="" method="">
+    <form action="./sample.html" method="POST" autocomplete="on" target="_blank">
       <label for="email"></label>
       <input
         type="email"
         id="email"
         placeholder="enter email"
         required
-        disabled
+        name="email"
+        
       />
-      <input type="number" min="0" max="100" step="1" />
-      <input type="password" id="password" placeholder="enter password" />
+      <!-- <input type="number" min="0" max="100" step="1" /> -->
+      <input type="password" id="password" name="password" placeholder="enter password" />
       <button type="submit">Login</button>
     </form>
   </body>
